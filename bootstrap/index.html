@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body,html{
+        overflow-x: hidden;
+        background-color: rgb(54, 51, 51);
+      }
+      .navbar{
+        font-family: 'Alkatra', cursive;
+        font-size: large;
+        font-weight: 100;
+      }
+      #vanilla_anchor a{
+         color: rgba(171,255,178,255);
+      }
+      .orange{
+        height: 550px;
+        width : 100%;
+        background-image: url('/[removal.ai]_tmp-641acea898e28.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        z-index: -1;
+      }
+      footer p,i{
+        color: white;
+      }
+      form i{
+        color: rgb(67, 61, 61);
+      }
+      
+    </style>
+  </head>
+  <body>
+        <nav class="navbar sticky-top navbar-expand-sm bg-warning" >
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand mb-0 h1 ">
+                  <img 
+                  class="d-inline-block rounded-5"
+                  src="26-06.jpg" alt="image" height="50" width="50">
+                   SPICY ICEY
+                </a>
+                <button
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  class="navbar-toggler rounded-4"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a href="#home" class="nav-link">
+                          Home
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link
+                        dropdown-toggle"
+                        id="navBarDropDown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                          Flavors
+                        </a>
+                          <ul class="dropdown-menu"
+                          aria-labelledby="navBarDropDown">
+                            <li>
+                              <a href="#vanilla" class="dropdown-item" id="vanilla_anchor">
+                              Vanilla
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#pistachio" class="dropdown-item" id="pistachio_anchor">
+                              Pistachio
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#ube" class="dropdown-item" id="ube_anchor">
+                              Ube
+                              </a>
+                            </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item active">
+                          <a href="#branch" class="nav-link">
+                            Branch
+                          </a>
+                      </li>
+                      <li class="nav-item active">
+                          <a href="#contact" class="nav-link">
+                            Contact Us
+                          </a>
+                      </li>
+                    </ul>
+                  </div>
+            <form class="d-flex">
+              <input type="text" class="form-control me-2">
+              <button type="submit" class="btn btn-secondary btn-outline-warning">Search</button>
+            </form>
+            </div>
+       </nav>
+       <section id="#home" class="bg-warning" style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px ;">
+         <div class="orange ">
+            <div class="container-fluid p-5">
+              <div class="row text-center">
+                <div class="col-6 ">
+                  <h1 style="font-weight: bolder; font-style: italic;">SCREAM FOR</h1>
+                </div>
+                <div class="col-6">
+                  <h1 style="font-weight: bolder; font-style: italic;">ICE CREAM
+                  </h1>
+                </div>
+                <div class="row text-center pt-5">
+                    <div class="col-sm-12">
+                      <p class="lead display-1">
+                        The most delicious place on the Internet! 
+                      </p>
+                      <br> <br> <br><br>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>
+       <section>
+         <div class="text-center my-4">
+          <h2 style="color:#fff;">
+            OUR FEATURE FLAVORS
+          </h2>
+         </div>
+         <div class="container-fluid my-0">
+            <div class="row m-3 mr-5" style="background-color:rgba(171,107,232,255); border-radius: 15px;" id="ube">
+              <div class="col col-md-6 my-4 " >
+                <h1 class="lead px-5" style="font-weight: bolder; font-size:30px; color:rgb(73, 5, 136)">
+                  UBE
+                </h1>
+                <ul style="list-style-type: none;">
+                    <li class="lead mt-5">
+                      # Ube is actually the word for tuber in Tagalog.
+                    </li>
+                    <li class="lead mt-2">
+                      # mellow, nutty, and vanilla-like, likened to a cross between white chocolate, vanilla, and pistachio, with a hint of coconut.
+                    </li>
+                    <li class="lead mt-2">
+                      # Light, Delicious, Smiling.
+                    </li>
+                </ul>
+              </div>
+              <div class="col-md justify-content-between">
+                <img src="/ube-PhotoRoom.png-PhotoRoom.png" alt="vanilla" height="300px" width="350px" border-radius="15px 15px 15px 15px">
+              </div>
+            </div>
+            <div class="row m-3" style="background-color:rgba(252,198,159,255); border-radius: 15px;" id="vanilla">
+              <div class="col px-5 mx-5">
+                <img src="/vanilla.png" alt="vanilla" height="350px" border-radius="15px 15px 15px 15px" >
+              </div>
+              <div class="col mt-5 px-5 " >
+                <h1 class="lead px-5 mx-5" style="font-weight: bolder; font-size:30px; color:rgb(216, 148, 12)">
+                   VANILLA
+                </h1>
+                <ul style="list-style-type: none;">
+                    <li class="lead mt-5">
+                      # Super-smooth and creamy
+                    </li>
+                    <li class="lead mt-2">
+                      # Oh-so cold and refreshing
+                    </li>
+                    <li class="lead mt-2">
+                      # Basically EVERYTHING a classic vanilla ice cream should be
+                    </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="row m-3" style="background-color:rgba(171,255,178,255); border-radius: 15px;" id="pistachio">
+              <div class="col mt-5 " >
+                <h1 class="lead mx-5" style="font-weight: bolder; color:rgb(11, 185, 54);">
+                   PISTACHIO
+                </h1>
+                <ul style="list-style-type: none;">
+                  <li class="lead mt-5">
+                    # an ice cream flavor made with pistachio nuts or flavoring
+                  </li>
+                  <li class="lead mt-2">
+                    # heaven in your mouth
+                  </li>
+                  <li class="lead mt-2">
+                    # wanna have more
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <img src="/pistachio-PhotoRoom.png" alt="pistachio" height="300px" width="320px" border-radius="15px 15px 15px 15px">
+              </div>
+            </div>   
+          </div>        
+     </section>
+
+
+     <section id="branch" class="mt-5" style="background-color: rgb(54, 51, 51);">
+        <div class="container-lg">
+          <div class="text-center">
+            <h2 style="color:aliceblue">OUR MELTING BRANCHES</h2>
+            <p class="lead" style="color:darksalmon">
+              Guess our favourite one!
+            </p>
+          </div>
+
+          <div class="row my-5 align-items-center justify-content-center g-0">
+
+              <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                  <img src="/branch1.jpg" class="card-img-top" alt="oregon" height="250px" width="20px" >
+                  <div class="card-body text-center py-4">
+                      <h4 class="card-title">
+                        OREGON
+                      </h4>
+                      <p class="lead card-subtitle">Portland</p>
+                      <p class=" text-muted my-4 card-text d-none d-lg-block">
+                        famous for combinations like Fish Sauce Caramel with Palm Sugar.There are classic flavors on the menu like Fresh Mint Chip and Salted Caramel.
+                      </p>
+                  </div>
+                </div>
+              </div>
+          
+
+          <div class="col-9 col-lg-4 ">
+            <div class="card border-secondary border-2">
+                <div class="card-header text-center">
+                   MOST POPULAR
+                </div>
+                <img src="/branch2.avif" class="card-img-top" alt="houston" height="250px" width="20px">
+              <div class="card-body text-center py-5">
+                  <h4 class="card-title">
+                    HOUSTON
+                  </h4>
+                  <p class="lead card-subtitle">Texas</p>
+                  <p class=" text-muted my-4 card-text d-none d-lg-block">
+                    provides figs, citrus fruits, and other ingredients for Fat Cat Creamery's five signature flavors, as well as seasonal offerings that change daily.
+                  </p>
+              </div>
+            </div>
+          </div>
+
+
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card border-0">
+                <img src="/branch3.avif" class="card-img-top" alt="columbus" height="300px">
+                <div class="card-body text-center py-4">
+                    <h4 class="card-title">
+                      COLOMBUS
+                    </h4>
+                    <p class="lead card-subtitle">Ohio</p>
+                    <p class=" text-muted my-4 card-text d-none d-lg-block">
+                      Among the shop's bestselling flavors are Butterscotch Popcorn, Everything Bagel, and Wedding Cake.
+                    </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+        </div>
+
+        
+     </section>
+        <footer class="bg-dark text-center pt-4" style="border-radius: 15px;" id="contact"> 
+          <h2 style="color:white">Get in touch</h2>
+         
+          <div class="container-fluid">
+                <div class="text-center pt-5">
+                  <div class="row bg-dark justify-content-center align-items-start">
+
+                        <div class="col-sm-4 col-md-3">
+                              <p class="text-start" style="color:white">Questions? Fill out the form to contact directly</p>
+                            <form >
+                              <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="abc@example.com">
+                              </div>
+
+                              <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                                </span>
+                                <input type="text" class="form-control" id="name" placeholder="eg.Maddash">
+                              </div>
+                            
+
+                              <div class="form-floating mb-4">
+                                <textarea name="query" id="query" cols="30" rows="10" class="form-control"></textarea>
+                                <label for="query" class="form-label text-muted">May we know how can we help you?</label>
+                              </div>
+
+                              <div class="mb-4 text-center">
+                                <button class="btn btn-secondary" type="submit">Submit</button>
+                              </div>
+                            </form>
+                        </div>
+                      <div class="col-sm-4 col-md-3">
+                          <h4 class="mb-3" style="color:white"><i class="bi bi-house-fill"></i></h4>
+                          <p class="mt-1">500 Terry Francine ST.<br>San Francisco,<br>CA 94158</p>
+                      </div>
+                      <div class="col-sm-4 col-md-3">
+                          <h4 class="mb-3" style="color:white"><i class="bi bi-telephone-fill"></i></h4>
+                          <p class="lead mt-1">icecreamno@mysite.com<br>Tel: 123-456-7890</p>
+                      </div>
+                  </div>
+
+                  <div class="row bg-dark justify-content-center">
+                    <div class="col col-sm-8">
+                      <i class="bi bi-whatsapp px-3 lead" style="color:aquamarine;"></i>
+                      <i class="bi bi-instagram px-3 lead" style="color: rgb(255, 29, 96)"></i>
+                      <i class="bi bi-twitter px-3 lead" style="color: skyblue"></i>
+                      <a href="#" class="px-3 text-end">
+                        <i class="bi bi-arrow-up-circle h2" style="color:grey"></i>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+        <div class="container">
+            <div class="row mt-3 position-relative">
+                <p class="lead text-center">Copyright &copy; 2023 <span style="font-style: italic;"> ICEY SPICEY</span></p>
+            </div>
+        </div>
+       
+      </footer> 
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
